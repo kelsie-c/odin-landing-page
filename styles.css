@@ -1,3 +1,10 @@
+:root {
+    --myblack: #1f2937;
+    --mylightgrey: #e5e7eb;
+    --myblue: #3882f6;
+    --mywhite: #f9faf8;
+}
+
 * {
     font-family: "Roboto", sans-serif;
 }
@@ -7,7 +14,7 @@ body {
 }
 
 header, hero {
-    background-color: #1f2937;
+    background-color: var(--myblack);
     display: flex;
     align-items: center;
 }
@@ -18,7 +25,7 @@ header {
 }
 
 .logo {
-    color: #f9faf8;
+    color: var(--mywhite);
     font-size: 24px;
     font-weight: 700;
 }
@@ -32,7 +39,7 @@ header {
 .menu li, .hero-subtitle {
     font-size: 18px;
     font-weight: 300;
-    color: #e5e7eb;
+    color: var(--mylightgrey);
 }
 
 hero {
@@ -41,15 +48,15 @@ hero {
 }
 
 .hero-title {
-    color: #f9faf8;
+    color: var(--mywhite);
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 12px;
 }
 
 button.signup {
-    background-color: #3882f6;
-    color: #f9faf8;
+    background-color: var(--myblue);
+    color: var(--mywhite);
     font-weight: 500;
     font-size: 18px;
     border: none;
@@ -66,7 +73,7 @@ section.content {
 .content-title {
     font-size: 36px;
     font-weight: 900;
-    color: #1f2937;
+    color: var(--myblack);
     margin-bottom: 40px;
 }
 
@@ -79,26 +86,26 @@ section.content {
 .square {
     width: 150px;
     height: 150px;
-    border: 3px solid #3883f6;
+    border: 3px solid var(--myblue);
     border-radius: 10px;
 }
 
 .item p {
     font-size: 16px;
-    color: #1f2937;
+    color: var(--myblack);
 }
 
 .quote {
     display: flex;
     flex-direction: column;
-    background-color: #e5e7eb;
+    background-color: var(--mylightgrey);
     padding: 50px 15%;
 }
 
 .italics {
     font-size: 36px;
     font-weight: 300;
-    color: #1f2937;
+    color: var(--myblack);
     margin-bottom: 0;
 }
 
@@ -106,4 +113,38 @@ section.content {
     font-size: 16px;
     font-weight: 700;
     align-self: flex-end;
+}
+
+.c2a {
+    padding: 75px 15%;
+}
+
+.box-color {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--myblue);
+    border-radius: 10px;
+    padding: 30px 60px;
+}
+
+p.action {
+    color: var(--mywhite);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+p.details {
+    color: var(--mylightgrey);
+    margin-top: 0;
+}
+
+.c2a-btn {
+    background-color: var(--myblue);
+    border: 2px solid var(--mywhite);
+    border-radius: 5px;
+    color: var(--mywhite);
+    font-size: 16px;
+    padding: 8px 40px;
 }
