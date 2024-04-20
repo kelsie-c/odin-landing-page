@@ -47,7 +47,7 @@ hero {
     margin-bottom: 12px;
 }
 
-button {
+button.signup {
     background-color: #3882f6;
     color: #f9faf8;
     font-weight: 500;
