@@ -57,3 +57,33 @@ button {
     padding: 8px 30px;
     margin-top: 12px;
 }
+
+section.content {
+    text-align: center;
+    padding: 65px 15%;
+}
+
+.content-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 40px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3883f6;
+    border-radius: 10px;
+}
+
+.item p {
+    font-size: 16px;
+    color: #1f2937;
+}
