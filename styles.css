@@ -87,3 +87,23 @@ section.content {
     font-size: 16px;
     color: #1f2937;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 50px 15%;
+}
+
+.italics {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    margin-bottom: 0;
+}
+
+.author {
+    font-size: 16px;
+    font-weight: 700;
+    align-self: flex-end;
+}
