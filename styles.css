@@ -6,18 +6,21 @@ body {
     margin: 0;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header, hero {
     background-color: #1f2937;
-    color: #f9faf8;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    justify-content: space-between;
     padding: 0 15%;
 }
 
 .logo {
+    color: #f9faf8;
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .menu {
@@ -26,8 +29,31 @@ header {
     gap: 25px;
 }
 
-.menu li {
+.menu li, .hero-subtitle {
     font-size: 18px;
     font-weight: 300;
     color: #e5e7eb;
+}
+
+hero {
+    padding: 100px 15%;
+    gap: 50px;
+}
+
+.hero-title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 30px;
+    margin-top: 12px;
 }
