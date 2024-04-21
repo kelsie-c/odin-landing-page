@@ -13,8 +13,11 @@ body {
     margin: 0;
 }
 
-header, hero {
+header, hero, footer {
     background-color: var(--myblack);
+}
+
+header, hero {
     display: flex;
     align-items: center;
 }
@@ -36,7 +39,7 @@ header {
     gap: 25px;
 }
 
-.menu li, .hero-subtitle {
+.menu li, .hero-subtitle, p.details, footer p {
     font-size: 18px;
     font-weight: 300;
     color: var(--mylightgrey);
@@ -54,13 +57,16 @@ hero {
     margin-bottom: 12px;
 }
 
+button {
+    border-radius: 5px;
+}
+
 button.signup {
     background-color: var(--myblue);
     color: var(--mywhite);
     font-weight: 500;
     font-size: 18px;
     border: none;
-    border-radius: 5px;
     padding: 8px 30px;
     margin-top: 12px;
 }
@@ -137,33 +143,25 @@ section.content {
 
 p.action {
     color: var(--mywhite);
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
     margin-bottom: 3px;
 }
 
 p.details {
-    color: var(--mylightgrey);
     margin-top: 0;
 }
 
 .c2a-btn {
     background-color: var(--myblue);
     border: 2px solid var(--mywhite);
-    border-radius: 5px;
     color: var(--mywhite);
-    font-size: 16px;
+    font-size: 18px;
     padding: 8px 40px;
 }
 
-footer {
-    background-color: var(--myblack);
-}
-
 footer p {
-    color: var(--mylightgrey);
     text-align: center;
-    font-weight: 300;
     margin: 0;
     padding: 30px;
 }
