@@ -80,7 +80,7 @@ section.content {
 .box-container {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 40px;
 }
 
 .square {
@@ -88,6 +88,13 @@ section.content {
     height: 150px;
     border: 3px solid var(--myblue);
     border-radius: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
 }
 
 .item p {
@@ -99,7 +106,7 @@ section.content {
     display: flex;
     flex-direction: column;
     background-color: var(--mylightgrey);
-    padding: 50px 15%;
+    padding: 50px 25%;
 }
 
 .italics {
